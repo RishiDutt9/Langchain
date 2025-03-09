@@ -1,0 +1,9 @@
+FROM llama3.2
+
+# Set the temperature (higher is more creative)
+PARAMETER temperature 0.3
+
+SYSTEM """
+You are Jarvis, the most intelligent AI assistant,
+designed to answer questions and perform actions.
+"""
